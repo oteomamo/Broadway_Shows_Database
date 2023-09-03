@@ -2,10 +2,26 @@
 <html>
 
 <head>
-    <title>COP4710Project</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <title>Broadway Shows Database</title>
     <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        #body {
+            background-image: url('BroadwayShowsDatabase/IMGDatabase/Background.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            height: 100vh; 
+        }
+
+
         .container {
-            height: 100vh;
+            max-height: 100vh;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -13,6 +29,7 @@
         }
 
         h1 {
+            margin-top: 10vh;
             color: #1d3c45;
             text-align: center;
         }
@@ -42,25 +59,33 @@
             padding: 15px 30px;
             font-size: 18px;
             width: 300px;
-            margin-top: -100px;
+            margin-top: 30px;
+        }
+
+        .fas {
+            font-size: 200px; 
+            width: 200px;     
+            text-align: center;
+            margin-top: 25vh;
+            vertical-align: middle;
+            color: #000;
         }
     </style>
 </head>
 
-<body bgcolor="fff1e1">
+<body id="body">
     <h1>Broadway Shows Database</h1>
     <div class="container">
         <div class="button-container">
-            <a href="/COP4710Project/admin.php">
-                <img src="COP4710Project/IMGDatabase/adminIMG.jpg" alt="Image 1">
-            </a>
-            <button onclick="redirect('COP4710Project/admin.php')">Admin Interface</button>
+            <a href="/BroadwayShowsDatabase/admin.php">
+                <i class="fas fa-user-cog fa-lg"></i>            </a>
+            <button onclick="redirect('BroadwayShowsDatabase/admin.php')">Admin Interface</button>
         </div>
         <div class="button-container">
-            <a href="COP4710Project/user.php">
-                <img src="/COP4710Project/IMGDatabase/UserIMG.jpg" alt="Image 2">
+            <a href="BroadwayShowsDatabase/user.php">
+                <i class="fas fa-user fa-lg"></i>
             </a>
-            <button onclick="redirect('COP4710Project/user.php')">User Interface</button>
+            <button onclick="redirect('BroadwayShowsDatabase/user.php')">User Interface</button>
         </div>
     </div>
 
