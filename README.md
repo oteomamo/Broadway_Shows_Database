@@ -25,8 +25,11 @@ Below is an image showcasing the database schema:
 
 
 Shows(**show id**, names, release_date, genre)
+
 Ticket Sales(**ticket number**, time, date, number_of_tickets, price, theater_id)
+
 Cast/Crew(**SSN**, name, working_position, gender, theater_id, show_id)
+
 Theater(**address**, name, address, number_of_seats)
 
 
