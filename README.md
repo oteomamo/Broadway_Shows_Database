@@ -24,10 +24,10 @@ Below is an image showcasing the database schema:
 ![Database Schema](https://github.com/yourusername/yourrepositoryname/blob/main/images/yourimagename.png)
 
 
-Shows(<u>show id</u>, names, release_date, genre)
-Ticket Sales(<u>ticket number</u>, time, date, number_of_tickets, price, theater_id)
-Cast/Crew(<u>SSN</u>, name, working_position, gender, theater_id, show_id)
-Theater(<u>address<u>, name, address, number_of_seats)
+Shows(**show id**, names, release_date, genre)
+Ticket Sales(**ticket number**, time, date, number_of_tickets, price, theater_id)
+Cast/Crew(**SSN**, name, working_position, gender, theater_id, show_id)
+Theater(**address**, name, address, number_of_seats)
 
 
 ## Run and Test the Database
