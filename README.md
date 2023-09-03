@@ -21,6 +21,8 @@ Comprehensive Search: Users can search shows based on various attributes, includ
 
 ## Schema Visualization:
 Below is an image showcasing the database schema:
+
+
 ![Database Schema](https://github.com/oteomamo/Broadway_Shows_Database/blob/main/DatabaseSchema.png)
 
 
