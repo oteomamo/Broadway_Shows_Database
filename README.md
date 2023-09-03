@@ -21,7 +21,7 @@ Comprehensive Search: Users can search shows based on various attributes, includ
 
 ## Schema Visualization:
 Below is an image showcasing the database schema:
-![Database Schema]([https://github.com/yourusername/yourrepositoryname/blob/main/images/yourimagename.png](https://github.com/oteomamo/Broadway_Shows_Database/blob/main/DatabaseSchema.png)
+![Database Schema]([https://github.com/oteomamo/Broadway_Shows_Database/blob/main/DatabaseSchema.png])
 
 
 Shows(**show id**, names, release_date, genre)
